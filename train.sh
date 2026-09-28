@@ -4,7 +4,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 # Use the active Python environment by default. To select the author's local
-# environment explicitly, run with CONDA_ENV=AI4M.
+# environment explicitly, run with CONDA_ENV=FeatStainDiff.
 if [[ -n "${CONDA_ENV:-}" && "${SKIP_CONDA_ACTIVATE:-0}" != "1" ]]; then
   if ! command -v conda >/dev/null 2>&1; then
     echo "CONDA_ENV was set but conda is unavailable." >&2
