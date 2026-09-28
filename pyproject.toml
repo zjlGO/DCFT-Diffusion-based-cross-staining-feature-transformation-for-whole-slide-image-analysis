@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "featstaindiff"
+version = "0.1.0"
+description = "Diffusion-based H&E-to-IHC feature translation for pathology"
+readme = "README.rst"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = [
+    "torch>=2.5,<3",
+    "numpy>=1.23,<3",
+    "torch-dct>=0.1.6",
+]
+
+[tool.setuptools]
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.txt", "licenses/*.txt"]
+
+[tool.setuptools.packages.find]
+include = ["featstaindiff*"]

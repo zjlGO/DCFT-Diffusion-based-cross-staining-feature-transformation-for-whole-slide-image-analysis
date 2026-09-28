@@ -55,3 +55,6 @@ dist/
 venv/
 env/
 .conda/
+
+# Core model implementation withheld during final author review.
+/featstaindiff/model.py

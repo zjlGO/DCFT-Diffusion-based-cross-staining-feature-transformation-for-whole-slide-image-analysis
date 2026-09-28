@@ -1,0 +1,3 @@
+torch>=2.5,<3
+numpy>=1.23,<3
+torch-dct>=0.1.6

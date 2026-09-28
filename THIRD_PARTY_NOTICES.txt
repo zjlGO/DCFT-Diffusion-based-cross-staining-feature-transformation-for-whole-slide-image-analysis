@@ -1,0 +1,31 @@
+Third-party notices
+===================
+
+The FeatStainDiff code is released under the project LICENSE.
+The following attribution and license terms apply to upstream material.
+
+U-ViT
+-----
+
+The diffusion backbone follows U-ViT: All are Worth Words: A ViT Backbone
+for Diffusion Models (Fan Bao et al., CVPR 2023). The reference
+implementation is at https://github.com/baofff/U-ViT and is licensed
+under the MIT License, Copyright (c) 2022 Fan Bao.
+
+The research code lineage contains U-ViT-derived material. The denoiser
+implementation in featstaindiff/model.py is temporarily withheld for review;
+it uses a U-shaped Transformer design and sinusoidal timestep embedding
+from this lineage. The complete upstream copyright and permission notice
+is in licenses/U-ViT-LICENSE.txt and is included in source and wheel
+distributions.
+
+Python dependencies and pretrained models
+-----------------------------------------
+
+PyTorch, torch-dct, and the other environment dependencies are installed
+separately; their source is not vendored here. External feature extractors
+and pretrained weights retain their own licenses and access conditions.
+This repository does not distribute those weights.
+
+The publisher-formatted article PDF is excluded from this repository;
+cite or link to the publication instead of redistributing the PDF.

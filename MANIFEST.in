@@ -1,0 +1,14 @@
+include README.rst
+include motivation.png
+include Fig2.png
+include CITATION.cff
+include LICENSE
+include THIRD_PARTY_NOTICES.txt
+include requirements.txt
+include train.sh
+recursive-include licenses *.txt
+recursive-include scripts *.py
+recursive-include tests *.py
+global-exclude *.py[cod]
+global-exclude *.tmp
+global-exclude *.pdf
