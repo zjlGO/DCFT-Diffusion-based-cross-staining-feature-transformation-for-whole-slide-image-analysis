@@ -1,5 +1,5 @@
-DCFT / FeatStainDiff
-=====================
+FeatStainDiff
+=============
 
 Official code repository for the Medical Image Analysis article
 "Diffusion-based cross-staining feature transformation for whole slide image
