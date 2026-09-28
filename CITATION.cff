@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use FeatStainDiff, please cite the published article."
+title: "FeatStainDiff"
+authors:
+  - family-names: Zhong
+    given-names: Jialong
+  - family-names: Zhang
+    given-names: Miao
+  - family-names: Liu
+    given-names: Leiye
+  - family-names: Liu
+    given-names: Tingwei
+  - family-names: Jiang
+    given-names: Jiahong
+  - family-names: Piao
+    given-names: Yongri
+  - family-names: Xu
+    given-names: Rui
+  - family-names: Tian
+    given-names: Feng
+  - family-names: Sun
+    given-names: Weibing
+  - family-names: Bi
+    given-names: Huan
+  - family-names: Lu
+    given-names: Huchuan
+preferred-citation:
+  type: article
+  title: "Diffusion-based cross-staining feature transformation for whole slide image analysis: From H&E to IHC representation learning"
+  authors:
+    - family-names: Zhong
+      given-names: Jialong
+    - family-names: Zhang
+      given-names: Miao
+    - family-names: Liu
+      given-names: Leiye
+    - family-names: Liu
+      given-names: Tingwei
+    - family-names: Jiang
+      given-names: Jiahong
+    - family-names: Piao
+      given-names: Yongri
+    - family-names: Xu
+      given-names: Rui
+    - family-names: Tian
+      given-names: Feng
+    - family-names: Sun
+      given-names: Weibing
+    - family-names: Bi
+      given-names: Huan
+    - family-names: Lu
+      given-names: Huchuan
+  journal: "Medical Image Analysis"
+  volume: 112
+  year: 2026
+  doi: "10.1016/j.media.2026.104138"
+  url: "https://doi.org/10.1016/j.media.2026.104138"
