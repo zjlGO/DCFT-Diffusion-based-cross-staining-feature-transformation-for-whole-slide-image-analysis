@@ -102,6 +102,11 @@ Registration code is not included in this repository.
 The denoiser draws on U-ViT; see THIRD_PARTY_NOTICES.txt and
 licenses/U-ViT-LICENSE.txt for attribution.
 
+Contact
+-------
+
+For questions, please email jialongzhong@mail.dlut.edu.cn.
+
 License
 -------
 
